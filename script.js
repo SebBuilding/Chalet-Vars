@@ -227,20 +227,20 @@
     {
       id: "facade",
       labelKey: "cat_facade",
-      files: ["Extérieur été 2.jpg", "Extérieur hiver 2.jpg"],
+      files: ["Exterieur ete 2.jpg", "Exterieur hiver 2.jpg"],
     },
     {
       id: "coin-tele",
       labelKey: "cat_coin_tele",
-      files: ["Coin télé.JPG"],
+      files: ["Coin tele.JPG"],
     },
     {
       id: "espace-repas-salon",
       labelKey: "cat_espace_repas_salon",
       files: [
-        "Salle de séjour coin repas.jpg",
-        "Salle de séjour coin salon.JPG",
-        "Salle de séjour coin salon 1.JPG",
+        "Salle de sejour coin repas.jpg",
+        "Salle de sejour coin salon.JPG",
+        "Salle de sejour coin salon 1.JPG",
       ],
     },
     {
@@ -253,11 +253,11 @@
       labelKey: "cat_chambres_1er",
       files: [
         "Chambre double 1er etage 1.jpg",
-        "Chambre 3 lits 1er étage.jpg",
-        "Chambre double 1er étage 2-1.jpg",
-        "Chambre double 1er étage 2-2.jpg",
-        "Dortoir 4 lits 1er étage.jpg",
-        "Dortoir 4 lits 1er étage 2.jpg",
+        "Chambre 3 lits 1er etage.jpg",
+        "Chambre double 1er etage 2-1.jpg",
+        "Chambre double 1er etage 2-2.jpg",
+        "Dortoir 4 lits 1er etage.jpg",
+        "Dortoir 4 lits 1er etage 2.jpg",
       ],
     },
     {
@@ -267,17 +267,17 @@
         "Chambre double 2e etage 1.JPG",
         "Chambre double 2e etage 2.JPG",
         "Chambre double 2e etage 2-2.JPG",
-        "Chambre 2 lits 2e étage.JPG",
+        "Chambre 2 lits 2e etage.JPG",
       ],
     },
     {
       id: "salles-de-bain",
       labelKey: "cat_salles_bain",
       files: [
-        "Salle de bain 1er étage.jpg",
-        "Salle de bain 1er étage 2.jpg",
-        "Salle de bain 2e étage.JPG",
-        "Salle de bain 2e étage 2.JPG",
+        "Salle de bain 1er etage.jpg",
+        "Salle de bain 1er etage 2.jpg",
+        "Salle de bain 2e etage.JPG",
+        "Salle de bain 2e etage 2.JPG",
       ],
     },
   ];
@@ -700,7 +700,7 @@
   }
 
   if (heroMedia) {
-    heroMedia.style.backgroundImage = `url("${photoSrc("Extérieur été 2.jpg")}")`;
+    heroMedia.style.backgroundImage = `url("${photoSrc("Exterieur ete 2.jpg")}")`;
   }
 
   setTodayAsMinDate();
